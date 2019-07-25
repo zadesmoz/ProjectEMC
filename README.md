@@ -25,3 +25,10 @@ This app plan to
 ### Download
 Android - [Appstore](google.com)
 iOS - I Not have Dev Access. Sorry
+
+
+## TODO
+ - Add Emergency Number on EMC Page
+ - Add First init Language Menu
+ - Add TTS (Text To Speech) for Disable Vision user. (Thank to https://github.com/vilic/cordova-plugin-tts)
+ - Add Basic Design.
