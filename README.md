@@ -19,6 +19,7 @@ This app plan to
 ## Tools
  - Ionic
  - GoogleMap API
+ - vilic TTS package
 
 ## Feel Free to Contributing
 
@@ -32,3 +33,8 @@ iOS - I Not have Dev Access. Sorry
  - Add First init Language Menu
  - Add TTS (Text To Speech) for Disable Vision user. (Thank to https://github.com/vilic/cordova-plugin-tts)
  - Add Basic Design.
+
+
+## Credit
+ - https://github.com/vilic/cordova-plugin-tts (For TTS)
+ - https://github.com/Rohfosho/CordovaCallNumberPlugin (For CallNumber)
