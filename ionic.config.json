@@ -1,5 +1,7 @@
 {
   "name": "pemc",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
