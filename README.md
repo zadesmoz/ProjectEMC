@@ -38,3 +38,5 @@ iOS - I Not have Dev Access. Sorry
 ## Credit
  - https://github.com/vilic/cordova-plugin-tts (For TTS)
  - https://github.com/Rohfosho/CordovaCallNumberPlugin (For CallNumber)
+
+
