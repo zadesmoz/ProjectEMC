@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-settings',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingsPage implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
+  }
+
+  gotoAbout(){
+    this.navCtrl.navigateForward('/about');
+  }
+  gotoLanguage(){
+    this.navCtrl.navigateForward('/language')
+  }
+  gotoGithub(){
+    window.open("https://github.com/karorogunso/ProjectEMC",'_system', 'location=yes');
   }
 
 }

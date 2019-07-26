@@ -26,6 +26,10 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.1.0",
     "call-number": "^1.0.1",
+    "cordova-android": "8.0.0",
+    "cordova-plugin-ionic": "^5.4.0",
+    "cordova-plugin-ionic-webview": "^4.1.1",
+    "cordova-plugin-whitelist": "^1.3.4",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -46,6 +50,10 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~12.6.6",
     "codelyzer": "~4.5.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-ionic-keyboard": "^2.1.3",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -58,5 +66,26 @@
     "tslint": "~5.17.0",
     "typescript": "~3.1.6"
   },
-  "description": "Emergency Call Number Book"
+  "description": "Emergency Call Number Book",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-ionic": {
+        "APP_ID": "test",
+        "CHANNEL_NAME": "test",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
+      },
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
 }

@@ -12,9 +12,22 @@
 <ion-content>
 
     <ion-list>
-        <ion-button shape="block"><ion-icon name="globe"></ion-icon>Language</ion-button>
-        <ion-button shape="block"><ion-icon name="person"></ion-icon>About</ion-button>
-        <ion-button shape="block"><ion-icon name="logo-github"></ion-icon>Github</ion-button>
+
+        <ion-button shape="block">
+          <ion-icon name="globe"></ion-icon>
+          Language
+        </ion-button>
+
+        <ion-button shape="block" (click)="gotoAbout()">
+          <ion-icon name="person"></ion-icon>
+          About
+        </ion-button>
+
+        <ion-button shape="block" (click)="gotoGithub()">
+          <ion-icon name="logo-github"></ion-icon>
+          Github
+        </ion-button>
+
     </ion-list>
 
 </ion-content>
