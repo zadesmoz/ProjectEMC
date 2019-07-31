@@ -1,12 +1,14 @@
 {
-  "name": "pemc",
+  "name": "ProjectEMC",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Puriwit Sesupaponphot",
+  "homepage": "https://www.github.com/karorogunso",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "android": "ng cordova build android",
+    "ios": "ng cordova build ios",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
