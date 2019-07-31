@@ -16,7 +16,8 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'language', loadChildren: './language/language.module#LanguagePageModule' }
 ];
 
 @NgModule({

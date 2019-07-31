@@ -1,0 +1,6 @@
+{
+    "MENU": "เมนู",
+    "TITLE": "อีเอ็มซี",
+    "description": "แอปรายชื่อเบอร์ฉุกเฉิน",
+    "data": {"name": "Test name {{name_value}}"}
+    }

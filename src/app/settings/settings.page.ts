@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 
+import { AlertController } from '@ionic/angular';
+
 @Component({
   selector: 'app-settings',
   templateUrl: './settings.page.html',
@@ -8,7 +10,8 @@ import { NavController } from '@ionic/angular';
 })
 export class SettingsPage implements OnInit {
 
-  constructor(private navCtrl: NavController) { }
+  constructor(private navCtrl: NavController, public alertController: AlertController) { }
+  
 
   ngOnInit() {
   }
@@ -23,4 +26,14 @@ export class SettingsPage implements OnInit {
     window.open("https://github.com/karorogunso/ProjectEMC",'_system', 'location=yes');
   }
 
+  async presentAlert() {
+    const alert = await this.alertController.create({
+      header: 'Alert',
+      subHeader: 'Subtitle',
+      message: 'This is an alert message.',
+      buttons: ['OK']
+    });
+  
+    await alert.present();
+  }
 }

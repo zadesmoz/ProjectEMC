@@ -1,0 +1,6 @@
+{
+    "MENU": "Menu",
+    "TITLE": "EMC",
+    "description": "Emegency Number list book app",
+    "data": {"name": "Test name {{name_value}}"}
+    }
