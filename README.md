@@ -8,8 +8,7 @@ and Call to get emergency help anything possible.
 This app plan to
  - Free without Ads
  - Open Source
- - Tell user how to do a first aid
- - Location Ping to tell user where user are. (Google MapAPI)
+ - Tell user how to do a first aid 
  - Support i89n (English, Thai and More)
  - Offline Mode (Require First Download Data) [Map Not Support]
  - Support on Android and iOS (But I don't have Iphone. So it's should take a time)
@@ -18,7 +17,6 @@ This app plan to
 
 ## Tools
  - Ionic
- - GoogleMap API
  - vilic TTS package
 
 ## Feel Free to Contributing
