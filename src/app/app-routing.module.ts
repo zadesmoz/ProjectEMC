@@ -15,9 +15,18 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
-  { path: 'language', loadChildren: './language/language.module#LanguagePageModule' }
+  { 
+    path: 'settings', 
+    loadChildren: './settings/settings.module#SettingsPageModule'
+  },
+  { 
+    path: 'about', 
+    loadChildren: './about/about.module#AboutPageModule' 
+  },
+  { 
+    path: 'language', 
+    loadChildren: './language/language.module#LanguagePageModule' 
+  }
 ];
 
 @NgModule({

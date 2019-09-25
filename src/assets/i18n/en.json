@@ -1,0 +1,12 @@
+{
+    "menu":{
+        "MENU": "Menu",
+        "TITLE": "EMC",
+        "description": "Emegency Number list book app",
+        "language": "Language"
+    },
+    "lang":{
+        "en": "English",
+        "th": "Thai"
+    }
+}

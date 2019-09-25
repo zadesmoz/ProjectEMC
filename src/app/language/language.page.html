@@ -1,10 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>{{Language}}</ion-title>
+    <ion-title>{{ 'menu.language' | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <button ion-button (click)="changeLanguage('th')">{{ 'lang.th' | translate }}</button>
+  <button ion-button (click)="changeLanguage('en')">{{ 'lang.en' | translate }}</button>
 
   
 
