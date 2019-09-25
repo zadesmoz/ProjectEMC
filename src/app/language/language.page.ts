@@ -1,3 +1,4 @@
+import { LanguageService } from '../language.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./language.page.scss'],
 })
 export class LanguagePage implements OnInit {
+  languages = [];
+  selected = '';
 
-  constructor() { }
+  constructor(
+    private languageService: LanguageService) { }
 
   ngOnInit() {
+    this.languages = this.languageService.getLanguage();
+    this.selected = this.languageService.selected;
+  }
+
+  select(lng){
+    this.languageService.setLanguage(lng);
   }
 
 }
