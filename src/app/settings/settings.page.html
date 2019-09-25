@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Settings
+      {{ 'MENU.setting' | translate}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -15,17 +15,17 @@
 
         <ion-button shape="block" (click)="gotoLanguage()">
           <ion-icon name="globe"></ion-icon>
-          Language
+          {{ 'MENU.language' | translate }}
         </ion-button>
 
         <ion-button shape="block" (click)="gotoAbout()">
           <ion-icon name="person"></ion-icon>
-          About
+          {{ 'SETTING.about' | translate }}
         </ion-button>
 
         <ion-button shape="block" (click)="gotoGithub()">
           <ion-icon name="logo-github"></ion-icon>
-          Github
+          {{ 'SETTING.github' | translate }}
         </ion-button>
 
     </ion-list>
