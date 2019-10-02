@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    
+
     <!-- Side Menu Button start -->
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
@@ -15,25 +15,126 @@
 
 <ion-content>
 
-    {{ 'MENU.menu' | translate }}
-    {{ 'MENU.maintitle' | translate }}
-    {{ 'MENU.description' | translate }}
-    {{ 'MENU.language' | translate }}
+  {{ 'MENU.menu' | translate }}
+  {{ 'MENU.maintitle' | translate }}
+  {{ 'MENU.description' | translate }}
+  {{ 'MENU.language' | translate }}
   <!-- Try to test a card on Main menu-->
-  <!--
 
-    <ion-card>
-        
-        <ion-card-header>
-          <ion-card-subtitle>Subtitle test</ion-card-subtitle>
-        </ion-card-header>
-        <ion-card-content>
-          <p>
-            Let's Test something
-          </p>
-          <ion-spinner *ngIf="!articles" name="dots"></ion-spinner>
-        </ion-card-content>
-      </ion-card> -->
-      
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:191">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\police.jpg"></ion-img>
+            191 <BR>สำนักงานตำรวจ
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:199">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\firerescue.png"></ion-img>
+            199 <BR>ไฟไหม้,ดับเพลิง
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:1599">
+          <ion-label style="text-align: center;">
+            <ion-img src="assets\img\ศบคน.ตร.jpg"></ion-img>
+            1599 <BR>ศูนย์จัดการคนหาย
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:1146">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\drr-log.png"></ion-img>
+            1146 <BR>กรมทางหลวงชนบท 
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:1155">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\ท่องเที่ยว.png"></ion-img>
+            1155 <BR>ตำรวจท่องเที่ยว
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:1192">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\รถหาย.png"></ion-img>
+            1192 <BR>ศูนย์รับแจ้งรถหาย
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:1193">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\ทางหลวง.png"></ion-img>
+            1193 <BR>ตำรวจทางหลวง
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:1196">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\ตำรวจน้ำ.png"></ion-img>
+            1196 <BR>อุบัติเหตุทางน้ำ
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:1197">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\จราจร.png"></ion-img>
+            1197 <BR>ตำรวจจราจร
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:1543">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\ทางพิเศษ.png"></ion-img>
+            1543 <BR>การทางพิเศษ
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item href="tel:1191">
+          <ion-label style="text-align: center">
+            <ion-img src="assets\img\ค้ามนุษย์.png"></ion-img>
+            1191 <BR>แจ้งเหตุค้ามนุษย์
+          </ion-label>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item href="tel:1669">
+            <ion-label style="text-align: center">
+                <ion-img src="assets\img\แพทย์ฉุกเฉิน.png"></ion-img>
+            1669 <BR>หน่วยแพทย์ฉุกเฉิน
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
