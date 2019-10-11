@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PhoneDataService } from '../phone-data.service';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({

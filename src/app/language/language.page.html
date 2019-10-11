@@ -1,5 +1,11 @@
 <ion-header>
   <ion-toolbar>
+
+    <!-- Side Menu Button start -->
+    <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <!-- Side Menu Button end -->
     <ion-title>{{ 'MENU.language' | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -7,14 +13,11 @@
 <ion-content>
     <ion-list>
         <ion-item button *ngFor="let lng of languages" (click)="select(lng.value)" detail="false">
-          <img [src]="lng.img" slot="start">
+          <ion-img [src]="lng.img" slot="start"></ion-img>>
           <ion-label text-wrap>
-            {{ lng.text }}
+            {{ lng.text | translate }}
           </ion-label>
           <ion-icon slot="end" name="checkmark" *ngIf="lng.value == selected"></ion-icon>
         </ion-item>
       </ion-list>
-
-  
-
 </ion-content>

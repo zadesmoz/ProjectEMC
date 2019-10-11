@@ -1,25 +1,3 @@
-<ion-header>
-  <ion-toolbar>
-
-    <!-- Side Menu Button start -->
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <!-- Side Menu Button end -->
-
-    <ion-title>
-      {{ 'MENU.maintitle' | translate }}
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-  {{ 'MENU.menu' | translate }}
-  {{ 'MENU.maintitle' | translate }}
-  {{ 'MENU.description' | translate }}
-  {{ 'MENU.language' | translate }}
-  <!-- Try to test a card on Main menu-->
 
   <ion-grid>
     <ion-row>
@@ -136,5 +114,3 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
-</ion-content>

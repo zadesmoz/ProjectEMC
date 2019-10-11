@@ -26,11 +26,9 @@ export class LanguageService {
 
   getLanguage(){
     return[
-      //{ text: 'English', value: 'en', img: 'assets/imgs/flags/en.png'},
-      //{ text: 'Thai', value: 'th', img: 'assets/imgs/flags/th.png'},
+      { text: 'English', value: 'en', img: 'assets/img/lang/en.png'},
+      { text: 'Thai', value: 'th', img: 'assets/img/lang/th.png'}
       //{ text: 'Japanese', value: 'jp', img: 'assets/imgs/flags/jp.png'},
-      { text: 'English', value: 'en'},
-      { text: 'Thai', value: 'th'}
       //{ text: 'Japanese', value: 'jp'}
     ];
   }

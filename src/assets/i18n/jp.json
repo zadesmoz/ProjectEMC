@@ -9,6 +9,10 @@
         "emcnum": "Emergency Number",
         "setting": "Settings"
     },
+    "SETTING":{
+        "about":"About",
+        "github":"Github"
+    },
     "LANG":{
         "en": "English",
         "th": "Thai",
